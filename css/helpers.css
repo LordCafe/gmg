@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2015, 6:44:34 PM
+    Author     : daniela
+*/
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * InventMx
+*/
+.clear {clear: both;}
+.left {float: left;}
+.right {float: right;}
+.dblock {display: block;}
+.inline{display: inline;}
+.dis-in-bl{display: inline-block;}
+.centertext,.tacenter{text-align: center;}
+.lefttext{text-align: left;}
+.righttext{text-align: right;}
+.center-elem{margin: 0 auto;}
+.sup{vertical-align: super;}
+.sub{vertical-align: sub;}
+.ulblock{
+    margin: 0;   
+    padding: 0;   
+    list-style-type: none;
+}
+.hide,.element-invisible{display: none;}
+/* FOR TEXT */
+a{text-decoration: none;}
+.underline{text-decoration: underline;}
+.b{font-weight: bold;}
+.strong{font-weight: bold;} 
+.cursor-pointer{cursor: pointer;}
+.relative,.prelative{position: relative;}
+.absolute{position:absolute;}
+.sinborde{border: none !important;}
+.mayuscula{text-transform: uppercase;}
+.lowercase{text-transform: lowercase;}
+.capitalize{text-transform: capitalize;}
+.italic{font-style: italic;}
+.progress{cursor: progress;}
+.firstLetter:first-letter{
+    text-transform: uppercase;
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.middle-elem{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.subrayado{ text-decoration: underline;}
+.h100{height: 100%;}
+.w100{width: 100%;}
+.pl0{left: 0;}
+.pr0{right: 0;}
+.white{color: #fff;}
+.black{color: #000;}
+.c333{color: #333;}
+.bgwhite{
+    background: white;
+}
+.bgNone{background: none;}
+video {
+    max-width: 100%;
+    height: auto;
+}
+
